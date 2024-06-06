@@ -18,9 +18,9 @@ a {
 }
 
 img {
-  display: block;
+  display: flex;
   max-width: 100%;
-  height: auto;
+  margin-right: 40px;
 }
 
 .body {
@@ -34,8 +34,9 @@ img {
 
 .tekst {
   color: white;
-  display: flex;
-  justify-content: space-between;
+  margin-top: 100px;
+  margin-left: 150px;
+  font-size: 25px;
 }
 
 .picture {
@@ -48,10 +49,16 @@ img {
 .menu {
   color: white;
   display: flex;
-  justify-content: space-evenly;
-  padding-left: 200px;
+  margin-top: 30px;
 }
 
+.h21 {
+  font-size: 10px;
+}
+
+.logo {
+  padding-right: 50px;
+}
 .galeria {
   background-color: #ffc9d6;
   display: flex;
@@ -81,4 +88,25 @@ img {
 .po {
   font-size: 20px;
   color: white;
+}
+
+.pod {
+  color: white;
+  display: flex;
+  margin-left: 20px;
+  margin-top: 5px;
+  padding-top: 20px;
+  font-size: 20px;
+}
+
+.inf {
+  color: white;
+  margin-top: 30px;
+  margin-left: 20px;
+  font-size: 20px;
+}
+
+.all {
+  display: flex;
+  flex-wrap: wrap;
 }
